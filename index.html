@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -42,14 +42,11 @@
         }
 
         @keyframes moveText {
-            0% {
-                transform: translateY(0); /* Comienza en la posición normal */
+            0%, 100% {
+                transform: translateY(0); /* Comienza y termina en la posición normal */
             }
             50% {
                 transform: translateY(5px); /* Se mueve hacia abajo */
-            }
-            100% {
-                transform: translateY(0); /* Vuelve a la posición normal */
             }
         }
 
